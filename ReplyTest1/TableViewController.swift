@@ -79,10 +79,6 @@ class TableViewController: UIViewController {
             self.tableView.deleteRows(at: indexPathsForSection(), with: .fade)
         }
     }
-    
-    @IBAction func didTapBack(_ sender: Any) {
-        self.dismiss(animated: true)
-    }
 }
 
 extension TableViewController: UITableViewDataSource {
